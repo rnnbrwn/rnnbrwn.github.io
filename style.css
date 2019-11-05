@@ -1,6 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    border: 50px solid #FFDF00;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background: rgb(247, 245, 245);
+    width: 50vw;
+    border-right: 2px solid silver;
+}
+
+aside {
+    background: rgb(18, 17, 17);
+    width: 50vw;
 }

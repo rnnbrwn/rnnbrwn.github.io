@@ -1,5 +1,6 @@
 # VS Code settings
 .vscode/
+init/
 
 # Logs
 logs

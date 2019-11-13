@@ -1,25 +1,35 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: blue;
+	/* grid-template-rows: 100vh; */
 }
 
 main {
-    background: rgb(247, 245, 245);
-    width: 50vw;
-    border-right: 2px solid silver;
+	background-color: blue;
+	display: flex;
+	align-items: center;
 }
 
 aside {
-    background: rgb(18, 17, 17);
-    width: 50vw;
+	background-color: white;
+}
+
+h1 {
+	font-family: 'Source Code Pro', monospace;
+	color: white;
+	opacity: 0.9;
+	font-size: 5vw;
+	text-transform: uppercase;
+	padding: 0;
 }

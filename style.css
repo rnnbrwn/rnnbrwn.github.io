@@ -9,11 +9,13 @@ body {
     padding: 10em;
     height: 100vh;
     width: 100vw;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 aside {
@@ -21,10 +23,12 @@ aside {
 }
 
 h1 {
-    font-family: 'Source Code Pro', monospace;
     color: black;
     opacity: 0.9;
     font-size: 5vw;
-    text-transform: uppercase;
     padding: 0;
+}
+
+h1 span.highlight {
+    color: #8db4d0;
 }

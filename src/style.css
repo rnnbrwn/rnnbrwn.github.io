@@ -11,12 +11,10 @@ body {
     padding: 0;
     min-height: 100vh;
     width: 100vw;
-
     display: flex;
     font-size: 16px;
     line-height: 1.45;
     font-weight: 400;
-    /* background-color: #f6f1ee; */
     background-color: #fff;
 }
 
@@ -97,16 +95,16 @@ em {
 #F2884B
 */
 
-em.greenHighlight {
-    background-color: #fbdcce;
+em.pinkHighlight {
+    background-color: #ff005a;
 }
 
 em.yellowHighlight {
-    background-color: #f6c270;
+    background-color: #fefb00;
 }
 
 em.orangeHighlight {
-    background-color: #efa885;
+    background-color: #ff8800;
 }
 
 /* footer {
@@ -121,4 +119,14 @@ a {
     body {
         flex-direction: column;
     }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button,
+img {
+    margin-bottom: 1.25em;
 }

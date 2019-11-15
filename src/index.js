@@ -1,4 +1,5 @@
 import _ from 'lodash';
+
 {
     let introHeader = document.querySelector('h1.welcomeText');
 

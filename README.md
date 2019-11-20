@@ -19,9 +19,10 @@ This will be a learning by doing type of site. This site will evolve and we star
 - get ronniebrown.scot to point to github pages
 - decide on platform. wordpress? static gatsby?
 - gulp? scss? need to get these setup
-- webpack?
+- ~~webpack?~~ gulp, scss etc.
 - start writing stuff
 - ~~add socials~~
 - style socials
 - create a design system (of sorts)
-- name this version and create a full list of items I want in it
+- ~~name this version and~~ create a full list of items I want in it
+- post 10 updates

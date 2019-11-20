@@ -3,45 +3,49 @@
 /* palette https://www.colourlovers.com/palette/4671871/Vintage */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  width: 100vw;
-  display: flex;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	width: 100vw;
+	display: flex;
 }
 
 main,
 aside {
-  padding: 3em 4em;
+	padding: 3em 4em;
 }
 
 main {
-  flex: 1;
+	flex: 1;
+}
+
+header {
+	display: flex;
 }
 
 aside {
-  background-color: rgba(40, 44, 52, 1);
-  flex: 1;
-  color: rgba(171, 178, 190, 1);
+	background-color: rgba(40, 44, 52, 1);
+	flex: 1;
+	color: rgba(171, 178, 190, 1);
 }
 
 p {
-  color: rgba(40, 44, 52, 0.9);
+	color: rgba(40, 44, 52, 0.9);
 }
 
 li {
-  line-height: 1.75em;
+	line-height: 1.75em;
 }
 
 em {
-  font-style: normal;
-  padding: 0.25em;
+	font-style: normal;
+	padding: 0.25em;
 }
 
 /* 
@@ -51,15 +55,15 @@ em {
 */
 
 em.pinkHighlight {
-  background-color: #ff005a;
+	background-color: #ff005a;
 }
 
 em.yellowHighlight {
-  background-color: #fefb00;
+	background-color: #fefb00;
 }
 
 em.orangeHighlight {
-  background-color: #ff8800;
+	background-color: #ff8800;
 }
 
 /* footer {
@@ -67,31 +71,26 @@ em.orangeHighlight {
 } */
 
 a {
-  color: #5583a6;
+	color: #5583a6;
 }
 
 @media screen and (max-width: 1024px) {
-  body {
-    flex-direction: column;
-  }
+	body {
+		flex-direction: column;
+	}
 }
 
 img {
-  max-width: 100%;
-  display: block;
+	background-color: #ccc;
+	border-radius: 50%;
+	padding: 1em;
 }
 
-button,
+/* button,
 img {
-  margin-bottom: 1.25em;
-}
-
-.logo {
-  width: 35%;
-  float: right;
-  /* border: 1px solid red; */
+	margin-bottom: 1.25em;
 }
 
 h2.firstHeaderAside {
-  margin: 0;
-}
+	margin: 0;
+} */

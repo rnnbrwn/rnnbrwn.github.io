@@ -3,6 +3,10 @@
 Site is built on Github Pages, and hosted at
 [rnnbrwn.github.io](https://rnnbrwn.github.io).
 
+### Rough plan for the site
+
+TBC
+
 ### Version history
 
 #### 0.0.1
@@ -15,3 +19,5 @@ Site is built on Github Pages, and hosted at
 - start writing stuff
 - ~~add socials~~
 - style socials
+- create a design system (of sorts)
+- name this version and create a full list of items I want in it

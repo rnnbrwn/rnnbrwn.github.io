@@ -27,3 +27,8 @@ This will be a learning by doing type of site. This site will evolve and we star
 - create a design system (of sorts)
 - ~~name this version and~~ create a full list of items I want in it
 - post ~~10~~ 9 updates
+- make sure ul has the same margin as p
+- add dates n taxonomy to any blog-type posts
+- i have a bit of javascript on the welcome message, but forgot to mention it in the intro post
+- the blog post header is the same as the Failte header, and that doesn't look right
+- also, the spacing between the welcome message and the blog post needs to be greater

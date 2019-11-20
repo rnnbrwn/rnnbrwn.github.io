@@ -1,0 +1,137 @@
+/* palette https://www.colourlovers.com/palette/4671871/Vintage */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+main,
+aside {
+  padding: 3em 4em;
+}
+
+main {
+  flex: 1;
+}
+
+aside {
+  background-color: rgba(40, 44, 52, 1);
+  flex: 1;
+  color: rgba(171, 178, 190, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Fjalla One', sans-serif;
+  margin: 2.75rem 0 1rem;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {
+  font-size: 3.157em;
+}
+
+h3 {
+  font-size: 2.369em;
+}
+
+h4 {
+  font-size: 1.777em;
+}
+
+h5 {
+  font-size: 1.333em;
+}
+
+h1 {
+  color: black;
+  opacity: 0.9;
+}
+
+h2 {
+  color: #8c8880;
+  /* opacity: 0.3; */
+}
+
+p {
+  color: rgba(40, 44, 52, 0.9);
+  font-size: 1.5em;
+  margin-bottom: 1.25em;
+  line-height: 1.75em;
+  font-family: Inter, sans-serif;
+}
+
+em {
+  font-style: normal;
+  padding: 0.25em;
+}
+
+/* 
+#A9D9D9
+#F2C53D
+#F2884B
+*/
+
+em.pinkHighlight {
+  background-color: #ff005a;
+}
+
+em.yellowHighlight {
+  background-color: #fefb00;
+}
+
+em.orangeHighlight {
+  background-color: #ff8800;
+}
+
+/* footer {
+	background-color: red;
+} */
+
+a {
+  color: #5583a6;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+img {
+  margin-bottom: 1.25em;
+}
+
+.logo {
+  width: 35%;
+  float: right;
+  /* border: 1px solid red; */
+}

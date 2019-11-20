@@ -1,3 +1,5 @@
+@import url('basefonts.css');
+
 /* palette https://www.colourlovers.com/palette/4671871/Vintage */
 
 * {
@@ -12,10 +14,6 @@ body {
   min-height: 100vh;
   width: 100vw;
   display: flex;
-  font-size: 16px;
-  line-height: 1.45;
-  font-weight: 400;
-  background-color: #fff;
 }
 
 main,
@@ -33,54 +31,12 @@ aside {
   color: rgba(171, 178, 190, 1);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Fjalla One', sans-serif;
-  margin: 2.75rem 0 1rem;
-  font-weight: 400;
-  line-height: 1.15;
-}
-
-h1 {
-  margin-top: 0;
-  font-size: 4.209em;
-}
-
-h2 {
-  font-size: 3.157em;
-}
-
-h3 {
-  font-size: 2.369em;
-}
-
-h4 {
-  font-size: 1.777em;
-}
-
-h5 {
-  font-size: 1.333em;
-}
-
-h1 {
-  color: black;
-  opacity: 0.9;
-}
-
-h2 {
-  color: #8c8880;
-  /* opacity: 0.3; */
-}
-
 p {
   color: rgba(40, 44, 52, 0.9);
-  font-size: 1.5em;
-  margin-bottom: 1.25em;
+}
+
+li {
   line-height: 1.75em;
-  font-family: Inter, sans-serif;
 }
 
 em {
@@ -134,4 +90,8 @@ img {
   width: 35%;
   float: right;
   /* border: 1px solid red; */
+}
+
+h2.firstHeaderAside {
+  margin: 0;
 }

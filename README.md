@@ -3,11 +3,11 @@
 Site is built on Github Pages, and hosted at
 [rnnbrwn.github.io](https://rnnbrwn.github.io).
 
-## Rough plan for the site
+### Rough plan for the site
 
-## Version history
+### Version history
 
-### 0.0.1
+#### 0.0.1
 
 - ~~fx ul li styles~~
 - get ronniebrown.scot to point to github pages

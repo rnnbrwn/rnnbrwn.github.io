@@ -16,6 +16,7 @@ This will be a learning by doing type of site. This site will evolve and we star
 #### 0.0.1 Rusty
 
 - ~~fx ul li styles~~
+- - ultimately, I pulled the todo list from the homepage and placed it here
 - get ronniebrown.scot to point to github pages
 - decide on platform. wordpress? static gatsby?
 - gulp? scss? need to get these setup
@@ -25,4 +26,4 @@ This will be a learning by doing type of site. This site will evolve and we star
 - style socials
 - create a design system (of sorts)
 - ~~name this version and~~ create a full list of items I want in it
-- post 10 updates
+- post ~~10~~ 9 updates

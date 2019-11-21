@@ -32,3 +32,5 @@ This will be a learning by doing type of site. This site will evolve and we star
 - i have a bit of javascript on the welcome message, but forgot to mention it in the intro post
 - the blog post header is the same as the Failte header, and that doesn't look right
 - also, the spacing between the welcome message and the blog post needs to be greater
+- sort out the layout, the 50/50 split doesn't scale very well at mid-size
+- google analytics?

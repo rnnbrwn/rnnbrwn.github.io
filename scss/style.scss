@@ -2,12 +2,7 @@
 
 /* palette https://www.colourlovers.com/palette/4671871/Vintage */
 
-/* @media screen and (orientation: landscape) and (max-width: 812px) { */
-@media screen and (max-width: 812px) {
-	body {
-		background-color: blue;
-	}
-}
+// Mixins
 
 * {
 	margin: 0;
@@ -93,11 +88,23 @@ img {
 	padding: 1em;
 }
 
-/* button,
-img {
-	margin-bottom: 1.25em;
+/* @media screen and (orientation: landscape) and (max-width: 812px) { */
+@media screen and (max-width: 812px) {
+	main,
+	aside {
+		padding: 1em;
+	}
+	header {
+		flex-direction: column;
+	}
+	header {
+		text-align: center;
+	}
+	img {
+		width: 50%;
+		align-self: center;
+	}
+	ul {
+		margin: 1em;
+	}
 }
-
-h2.firstHeaderAside {
-	margin: 0;
-} */

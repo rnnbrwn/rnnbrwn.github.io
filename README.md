@@ -19,8 +19,8 @@ This will be a learning by doing type of site. This site will evolve and we star
 - - ultimately, I pulled the todo list from the homepage and placed it here
 - ~~get ronniebrown.scot to point to github pages~~
 - decide on platform. wordpress? static gatsby?
-- gulp? scss? need to get these setup
-- ~~webpack?~~ gulp, scss etc.
+- ~~gulp? scss? need to get these setup~~
+- ~~webpack?~~ ~~gulp, scss etc.~~
 - start writing stuff
 - ~~add socials~~
 - style socials

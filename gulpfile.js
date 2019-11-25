@@ -23,12 +23,11 @@ function style() {
 function watch() {
 	browserSync.init({
 		server: {
-			baseDir: './',
-			index: 'index.htm'
+			baseDir: './'
 		}
 	});
 	gulp.watch('./scss/**/*.scss', style);
-	gulp.watch('./*.htm').on('change', browserSync.reload);
+	gulp.watch('./*.html').on('change', browserSync.reload);
 	gulp.watch('./js/**/*.js').on('change', browserSync.reload);
 }
 

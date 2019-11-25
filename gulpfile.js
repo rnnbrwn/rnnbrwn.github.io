@@ -14,7 +14,23 @@ function style() {
 
 			// 3. Where do I save the compiled css?
 			.pipe(gulp.dest('./css'))
+
+			// 4. Stream changes to all browsers
+			.pipe(browserSync.stream())
 	);
 }
 
+function watch() {
+	browserSync.init({
+		server: {
+			baseDir: './',
+			index: 'index.htm'
+		}
+	});
+	gulp.watch('./scss/**/*.scss', style);
+	gulp.watch('./*.htm').on('change', browserSync.reload);
+	gulp.watch('./js/**/*.js').on('change', browserSync.reload);
+}
+
 exports.style = style;
+exports.watch = watch;

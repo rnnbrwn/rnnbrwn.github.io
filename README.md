@@ -15,6 +15,8 @@ This will be a learning by doing type of site. This site will evolve and we star
 
 #### 0.0.1 Rusty
 
+A note for future Ronnie: Gatsby's setup but the deploy page is set in the /public folder. For now, I'm keeping the static site until some of the items below are resolved.
+
 - ~~fx ul li styles~~
 - - ultimately, I pulled the todo list from the homepage and placed it here
 - ~~get ronniebrown.scot to point to github pages~~

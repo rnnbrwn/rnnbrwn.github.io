@@ -28,7 +28,7 @@ A note for future Ronnie: Gatsby's setup but the deploy page is set in the /publ
 - style socials
 - create a design system (of sorts)
 - ~~name this version and~~ create a full list of items I want in it
-- post ~~10~~ 9 updates
+- post ~~10~~ ~~9~~ 8 updates
 - make sure ul has the same margin as p
 - add dates n taxonomy to any blog-type posts
 - i have a bit of javascript on the welcome message, but forgot to mention it in the intro post

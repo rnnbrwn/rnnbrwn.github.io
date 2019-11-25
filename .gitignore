@@ -1,9 +1,10 @@
 # User settings
 package*.json
 
-# VS Code settings
+# user added settings
 .vscode/
 init/
+.cache/
 
 # Logs
 logs

@@ -23,7 +23,7 @@ A note for future Ronnie: Gatsby's setup but the deploy page is set in the /publ
 - decide on platform. wordpress? static gatsby?
 - ~~gulp? scss? need to get these setup~~
 - ~~webpack?~~ ~~gulp, scss etc.~~
-- start writing stuff
+- ~~start writing stuff~~
 - ~~add socials~~
 - style socials
 - create a design system (of sorts)

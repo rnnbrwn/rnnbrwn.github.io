@@ -1,82 +1,63 @@
-@import url("basefonts.css");
-/* palette https://www.colourlovers.com/palette/4671871/Vintage */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
+ @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Vesper+Libre&display=swap');
 body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  width: 100vw;
-  display: flex; }
+	
+}
 
-main,
-aside {
-  padding: 3em 4em; }
+.container {
+	display: grid;
+	grid-template-columns: 1.5fr  minmax(200px, 1fr);
+	height: 100vh;
+}
 
-main {
-  flex: 1; }
+.left, .right {
+	padding: 2em;
+}
 
-header {
-  display: flex; }
+.left {
+	background-color: white;
+	column-count: 2;
+	column-gap: 3em;
+}
 
-aside {
-  background-color: #282c34;
-  flex: 1;
-  color: #abb2be; }
+.left .hero-image {
+	float: left;
+	margin: 0 1.5em 1em 0;
+}
+
+.right {
+	color: white;
+	background-color: black;
+}
+
+.aside {
+	color: white;
+	column-span: all;
+	background-color: tomato;
+	padding: 1em; 
+	margin-top: 1em;
+	font-size: 1.2em;
+	font-weight: 100;
+}
+
+footer {
+  column-span: all;
+}
+
+footer ul {
+	display: flex;
+	
+}
+
+h1 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 6vw;
+	word-wrap: break-word;
+	text-align: right;
+}
 
 p {
-  color: rgba(40, 44, 52, 0.9); }
-
-li {
-  line-height: 1.75em; }
-
-em {
-  font-style: normal;
-  padding: 0.25em; }
-
-/* 
-#A9D9D9
-#F2C53D
-#F2884B
-*/
-em.pinkHighlight {
-  background-color: #ff005a; }
-
-em.yellowHighlight {
-  background-color: #f6c270; }
-
-em.orangeHighlight {
-  background-color: #ff8800; }
-
-/* footer {
-	background-color: red;
-} */
-a {
-  color: #5583a6; }
-
-@media screen and (max-width: 1024px) {
-  body {
-    flex-direction: column; } }
-
-img {
-  background-color: #ccc;
-  border-radius: 50%;
-  padding: 1em; }
-
-/* @media screen and (orientation: landscape) and (max-width: 812px) { */
-@media screen and (max-width: 812px) {
-  main,
-  aside {
-    padding: 1em; }
-  header {
-    flex-direction: column; }
-  header {
-    text-align: center; }
-  img {
-    width: 50%;
-    align-self: center; }
-  ul {
-    margin: 1em; } }
+	font-family: 'Vesper Libre', 'Times New Roman';
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 2em;
+}

@@ -1,6 +1,6 @@
 function changeRobot() {
   //change this if you add a new robot svg
-  var howManyRobots = 24;
+  var howManyRobots = 27;
 
   var numRobot = Math.floor(Math.random() * howManyRobots + 1);
   document.getElementById('robot-img').src =

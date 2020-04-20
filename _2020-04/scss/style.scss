@@ -1,0 +1,110 @@
+@import url('basefonts.css');
+
+/* palette https://www.colourlovers.com/palette/4671871/Vintage */
+
+// Mixins
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	width: 100vw;
+	display: flex;
+}
+
+main,
+aside {
+	padding: 3em 4em;
+}
+
+main {
+	flex: 1;
+}
+
+header {
+	display: flex;
+}
+
+aside {
+	background-color: rgba(40, 44, 52, 1);
+	flex: 1;
+	color: rgba(171, 178, 190, 1);
+}
+
+p {
+	color: rgba(40, 44, 52, 0.9);
+}
+
+li {
+	line-height: 1.75em;
+}
+
+em {
+	font-style: normal;
+	padding: 0.25em;
+}
+
+/* 
+#A9D9D9
+#F2C53D
+#F2884B
+*/
+
+em.pinkHighlight {
+	background-color: #ff005a;
+}
+
+em.yellowHighlight {
+	background-color: #f6c270;
+}
+
+em.orangeHighlight {
+	background-color: #ff8800;
+}
+
+/* footer {
+	background-color: red;
+} */
+
+a {
+	color: #5583a6;
+}
+
+@media screen and (max-width: 1024px) {
+	body {
+		flex-direction: column;
+	}
+}
+
+img {
+	background-color: #ccc;
+	border-radius: 50%;
+	padding: 1em;
+}
+
+/* @media screen and (orientation: landscape) and (max-width: 812px) { */
+@media screen and (max-width: 812px) {
+	main,
+	aside {
+		padding: 1em;
+	}
+	header {
+		flex-direction: column;
+	}
+	header {
+		text-align: center;
+	}
+	img {
+		width: 50%;
+		align-self: center;
+	}
+	ul {
+		margin: 1em;
+	}
+}

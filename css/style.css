@@ -1,67 +1,3 @@
-<<<<<<< HEAD
- @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Vesper+Libre&display=swap');
-body {
-	
-}
-
-.container {
-	display: grid;
-	grid-template-columns: 1.5fr  minmax(200px, 1fr);
-	height: 100vh;
-}
-
-.left, .right {
-	padding: 2em;
-}
-
-.left {
-	background-color: white;
-	column-count: 2;
-	column-gap: 3em;
-}
-
-.left .hero-image {
-	float: left;
-	margin: 0 1.5em 1em 0;
-}
-
-.right {
-	color: white;
-	background-color: black;
-}
-
-.aside {
-	color: white;
-	column-span: all;
-	background-color: tomato;
-	padding: 1em; 
-	margin-top: 1em;
-	font-size: 1.2em;
-	font-weight: 100;
-}
-
-footer {
-  column-span: all;
-}
-
-footer ul {
-	display: flex;
-	
-}
-
-h1 {
-	font-family: 'Alfa Slab One', cursive;
-	font-size: 6vw;
-	word-wrap: break-word;
-	text-align: right;
-}
-
-p {
-	font-family: 'Vesper Libre', 'Times New Roman';
-	font-size: 1em;
-	line-height: 1.5em;
-	margin-bottom: 2em;
-=======
 html {
   box-sizing: border-box;
 }
@@ -79,5 +15,4 @@ body {
   justify-content: center;
   font-size: 24px;
   line-height: 1em;
->>>>>>> april-2020
 }

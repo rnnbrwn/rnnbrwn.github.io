@@ -49,7 +49,7 @@ a.emailMe {
   font-size: 0.8em;
 }
 
-@media only screen and (max-width: 645px) {
+@media only screen and (max-width: 700px) {
   body {
     flex-direction: column;
     overflow: hidden;

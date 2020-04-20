@@ -15,10 +15,13 @@ body {
   justify-content: center;
   font-size: 24px;
   line-height: 1em;
+  margin: 0;
+  padding: 0;
 }
 
 #robot-img {
   height: 20em;
+  margin-left: 1em;
 }
 
 a {

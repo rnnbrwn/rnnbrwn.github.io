@@ -19,9 +19,12 @@ body {
   padding: 0;
 }
 
+main {
+  padding: 1em;
+}
+
 #robot-img {
   height: 20em;
-  margin-left: 1em;
 }
 
 a {
@@ -31,4 +34,10 @@ a {
 
 .robot-text {
   text-decoration: line-through;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
 }

@@ -1,5 +1,6 @@
 # User settings
 package*.json
+_2020-04/
 
 # user added settings
 .vscode/

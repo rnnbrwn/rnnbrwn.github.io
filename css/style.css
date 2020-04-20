@@ -17,8 +17,8 @@ body {
   line-height: 1em;
 }
 
-.robot {
-  width: 10em;
+#robot-img {
+  height: 20em;
 }
 
 a {

@@ -63,6 +63,7 @@ a.emailMe {
     z-index: 0;
   }
   .emailMe {
+    position: relative;
     width: 100%;
     text-align: center;
     z-index: 10;

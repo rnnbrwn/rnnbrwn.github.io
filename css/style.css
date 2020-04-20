@@ -11,6 +11,7 @@ body {
   background-color: #f9f9f9;
   font-family: 'Baloo Tamma 2', cursive;
   display: flex;
+
   align-items: center;
   height: 100vh;
   justify-content: center;
@@ -19,10 +20,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-/* h2 {
-  line-height: 1.2em;
-} */
 
 main {
   padding: 1em;
@@ -34,7 +31,13 @@ main {
 }
 
 a {
-  color: tomato;
+  display: inline-block;
+  background-color: tomato;
+  color: #f9f9f9;
+  padding: 0.4em 0.6em 0.3em 0.6em;
+  line-height: normal;
+  text-decoration: none;
+  border-radius: 0.25em;
   font-weight: bold;
 }
 
@@ -42,8 +45,20 @@ a {
   text-decoration: line-through;
 }
 
+.smaller {
+  font-size: 0.8em;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     flex-direction: column;
+    overflow-x: hidden;
+  }
+  #robot-img {
+    width: 100%;
+    opacity: 0.1;
+    position: absolute;
+    right: -50%;
+    top: 0;
   }
 }

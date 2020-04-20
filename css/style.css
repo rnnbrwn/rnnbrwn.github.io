@@ -52,7 +52,7 @@ a {
 @media only screen and (max-width: 600px) {
   body {
     flex-direction: column;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
   #robot-img {
     width: 100%;

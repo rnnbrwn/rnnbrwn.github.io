@@ -17,7 +17,15 @@ body {
   line-height: 1em;
 }
 
+.robot {
+  width: 10em;
+}
+
 a {
   color: tomato;
   font-weight: bold;
+}
+
+.robot-text {
+  text-decoration: line-through;
 }
